@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+* {
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transition: all 0.3s;
+}
+
+#themeBtnM{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: black;
+    color: white;
+    z-index: 1;
+}
+#themeBtnS{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid orangered;
+    background-color: orangered;
+    color: orange;
+    z-index: 1;
+}
+.carousel-item img{
+    height: 400px;
+}
+#card02 img{
+    height: 200px;
+}
